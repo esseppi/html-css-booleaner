@@ -8,7 +8,12 @@ header {
 
 main{
     margin-left: 5px;
-    margin-top: 5px;
+    margin-right: 5px;
+}
+
+section {
+    margin-right: 5%;
+    margin-left: 5%;
 }
 
 h1 {
@@ -23,12 +28,13 @@ h1 {
     background-position: top;
 }
 
+
 #logo {
-    margin: 5px;
-    width: 20%;
     position: absolute;
     bottom: 0%;
-    left: 0.7%;
+    margin-top: 5px;
+    margin-left: 5%;
+    width: 20%;
 }
 
 #writer {
