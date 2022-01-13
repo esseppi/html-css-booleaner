@@ -1,15 +1,25 @@
+*{
+    margin: 0;
+}
 header {
     background-color: rgb(78,160,255);
+    
 }
-body {
-    background: #ffffff url("img_tree.png") no-repeat right top;
-  }
+
+main{
+    margin-left: 5px;
+    margin-top: 5px;
+}
+
+h1 {
+    font-size: 3em;
+}
+
 #hcover {
     position: relative;
-    width: 100%;
-    height: 180px;
+    height: 120px;
     background-image: url(../img/pattern.png);
-    background-size: 50%;
+    background-size: 30%;
     background-position: top;
 }
 
@@ -18,4 +28,32 @@ body {
     width: 20%;
     position: absolute;
     bottom: 0%;
+    left: 0.7%;
+}
+
+#writer {
+    color: rgb(66,182,232);
+}
+
+#tim1 {
+    margin-top: 5px;
+    width: 58%;
+    display: inline-block;
+    background-image:url(../img/tim-1.jpg);
+    background-size: cover;
+    background-position: center;    
+    height: 400px;
+}
+#tim2 {
+    margin-top: 5px;
+    width: 40%;
+    display: inline-block;
+    background-image:url(../img/tim-2.jpg);
+    background-position: center;
+    background-size: cover;
+    height: 400px; 
+}
+
+.utitle {
+    color: rgb(133,133,133);
 }
